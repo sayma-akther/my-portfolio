@@ -15,7 +15,7 @@ nav{
 .nav-title{
     color: #181818;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 56px;
     
 }
 
@@ -46,19 +46,21 @@ nav li{
 }
 
 .header{
+    
     /* top: 0; */
     background: #FFF8F3;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
+    /* background-size: 200px 500px; */
     background-position: bottom right, left;
 }
 
-/* img{
-    width: 450px;
-    height: 550px;
+.marry{
+    width: 580px;
+    height: 672px;
     left: 1050px;
     top: 161px;
-} */
+} 
 /* style navbar end */
 
 /* bannaer styles */
@@ -93,8 +95,15 @@ nav li{
     display: flex;
     
 }
+.btn i{
+    padding-right: 4px;
+    
+}
 
 .btn-contact{
+    display: flex;
+    align-items: center;
+    
     margin-left: 10px;
     background: white;
     color: #FD6E0A;
@@ -103,6 +112,9 @@ nav li{
     border-radius: 4px;
     padding: 15px 30px;
     cursor: pointer;
+}
+.btn-contact i{
+    padding-right: 4px;
 }
 
 
